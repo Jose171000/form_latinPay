@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient( to top right,#ff4d71,#ff4d71 30%,#2597e5);
+}
+
+
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    width: auto;
+    max-width: 800px;
+}
+

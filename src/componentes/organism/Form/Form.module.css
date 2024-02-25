@@ -50,6 +50,7 @@
     }
     .button_container{
         height: 20% !important;
+        margin-top: 12px;
     }
     .cortain{
         align-items:center !important;
@@ -62,6 +63,21 @@
         width: 350px !important;
 
     }
+    .form_input{
+        margin-top:16px ;
+     }
+     .form_label{
+         margin-top: 16px;
+     }
+     .error_label{
+         margin-top: 16px;
+     }
+     .error_input{
+         margin-top: 16px;
+     }
+     .error_message{
+         margin-top: 26px
+     }
 }
 
 @media screen and (max-width: 450px) {

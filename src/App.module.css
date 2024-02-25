@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient( to top right,#ff4d71,#ff4d71 30%,#2597e5);
+}
+@media screen and (max-width: 400px) {
+    body{
+    background: #ff4d71 ;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    }
+}
+
+
+.form_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    width: auto;
+    max-width: 800px;
+}
+
+.buyingForm,
+.asesorForm {
+   position: absolute;
+   transition: transform 0.7s ease; /* Agregar transición para la propiedad transform */
+}
+
+.buyingForm {
+    transform: translate(0px); /* Definir transformación para buyingForm */
+}
+
+.asesorForm {
+   transform: translateY(-300%); /* Definir transformación para asesorForm */
+}

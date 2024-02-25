@@ -1,0 +1,279 @@
+@media screen and (max-width: 690px) {
+    .form_container{
+        flex-direction: column;
+        height: 80vh !important;
+        text-align: center;
+        width: 350px !important;
+    }
+    .left_container{
+        border-radius: 15px 15px 0 0 !important;
+        height: 20% !important;
+        width: 100% !important;
+    }
+    .left_container h1{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .left_container div p{
+        font-size: 12px;
+    }
+    .rigth_container{
+        border-radius: 0 0 15px 15px !important;
+        width: 100% !important;
+        height: 80% !important;
+        padding: 0 !important;
+    }
+    .rigth_container h3{
+        font-size: 13px;
+    }
+    /* .orden_form{
+        width: 100%;
+        position: relative;
+    } */
+    .form{  
+        position: relative;
+        padding-top: -20px;
+        /* left: 22%; */
+        transform: scale(1.2);
+    }
+    .inputs_container{
+        flex-direction: column !important;
+    }
+
+    .button{
+        margin-top: 30px;
+        width: 100% !important;
+        height: 60% !important;
+    }
+    .button:hover{
+        transform: none;
+    }
+    .button_container{
+        height: 20% !important;
+    }
+    .cortain{
+        align-items:center !important;
+        text-align: center !important;
+        z-index: 10;
+        border-radius: 20px;
+    }
+    .cortain section{
+        left: 10% !important;
+        width: 350px !important;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cortain section{
+        left: 0% !important;
+        width: 350px !important;
+
+    }
+}
+/* @media screen and (min-width: 391px) {
+    .cortain section{
+        left: 25% !important;
+        width: 350px !important;
+
+    }
+} */
+/* @media screen and (max-width: 900px) {
+    
+} */
+
+.form_container{
+    display: flex;
+    border: solid 1px;
+    border-radius: 20px;
+    width: 800px;
+    height:50vh;
+    max-width: 800px;
+}
+
+.left_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 20px 0 0 20px;
+}
+
+.rigth_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    width: 60%;
+    background-color: antiquewhite;
+    border-radius: 0 20px 20px 0;
+}
+
+.inputs_container{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    gap: 15%;
+    justify-content: center;
+    transform: scale(1.03);
+}
+
+.input_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+
+.form_input{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    width: fit-content;
+}
+.error_input{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    border-color: red;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-10px) scale(0.7);
+    transform-origin: left top;
+    color: #3e0c16;
+}   
+.error_input:focus + .error_label,
+.error_input:not(:placeholder-shown) + .error_label{
+    transform: translateY(-10px) scale(0.7);
+    transform-origin: left top;
+    color: red;
+}  
+.form_label{
+    position: absolute;
+    font-size: .9rem;
+    cursor: pointer;
+    top: 0;
+    /* left: 5px; */
+    transform: translateY(1px);
+    transition: transform .5s, color .3s;
+}
+.error_label{
+    position: absolute;
+    font-size: .9rem;
+    cursor: pointer;
+    color: red;
+    top: 0;
+    /* left: 5px; */
+    transform: translateY(1px);
+    transition: transform .5s, color .3s;
+}
+.error_message{
+    position: absolute;
+    font-size: 10px;
+    color: red;
+    top: 12px;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.button{
+    width: 50%;
+    height: 30%;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: border 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* box-shadow: 0.3px 0.3px 2px  rgb(0, 0, 0); */
+}
+.button:hover{
+    transform: scale(1.1) rotate(2grad);
+    cursor: pointer;
+    border: 2px solid #091828;
+}
+.container_icons{
+    display: flex block;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    
+}
+.container_icons a{
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.container_icons a:hover{
+    transform: scale(1.3) ;
+}
+
+.cortain{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.427);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+    border-radius: 20px;
+}
+.cortain section{
+    position: fixed;
+    /* justify-content: center;
+    align-items: center !important; */
+    left: 20%;
+    width: 500px;
+    height: 300px;
+    background-color:rgb(146, 150, 216) ;
+    border-radius: 20px;
+}
+.cortain section span p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.cortain section button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    opacity: .4;
+    transition: .2s;
+}
+.cortain section button:hover{
+    transition: .2s;
+    opacity: 1;
+}
+
+.imageCortain{
+    margin-top: 30px;
+}
+.noCortain{
+    display: none;
+}
+
+.aqui{
+    cursor: pointer;
+    display: inline-block;
+    transition: .3s;
+}
+.aqui:hover{
+    transform: scale(1.07);
+    transition: .3s;
+}

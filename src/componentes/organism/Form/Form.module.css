@@ -15,7 +15,7 @@
         margin-bottom: 0;
     }
     .left_container div p{
-        font-size: 12px;
+        font-size: 15px;
     }
     .rigth_container{
         border-radius: 0 0 15px 15px !important;
@@ -24,7 +24,7 @@
         padding: 0 !important;
     }
     .rigth_container h3{
-        font-size: 13px;
+        font-size: 15px;
     }
     /* .orden_form{
         width: 100%;
@@ -88,28 +88,55 @@
 @media screen and (max-height: 720px) {
     .button_container{
         height: 20% !important;
-        margin-top: 5px;
+        margin-top: 15px;
     }
     .form_input{
-        margin-top:10px ;
+        margin-top:5px !important;
         margin-bottom: -8px;
      }
      .form_label{
-         margin-top: 10px;
+         margin-top: 5px !important;
         margin-bottom: -8px;
 
      }
     .error_label{
-        margin-top: 10px;
+        margin-top: 5px !important;
        margin-bottom: -8px;
     }
     .error_input{
        margin-bottom: -8px;
-       margin-top: 10px;
+       margin-top: 5px !important;
     }
     .error_message{
        margin-bottom: -8px;
-       margin-top: 20px
+       margin-top: 15px !important
+    }
+}
+@media screen and (min-height: 721px) and (max-height: 870px) {
+    .button_container{
+        height: 20% !important;
+        margin-top: 35px;
+    }
+    .form_input{
+        margin-top:19px !important;
+        margin-bottom: -8px;
+     }
+     .form_label{
+         margin-top: 19px !important;
+        margin-bottom: -8px;
+
+     }
+    .error_label{
+        margin-top: 19px !important;
+       margin-bottom: -8px;
+    }
+    .error_input{
+       margin-bottom: -8px;
+       margin-top: 19px !important;
+    }
+    .error_message{
+       margin-bottom: -8px;
+       margin-top: 29px !important
     }
 }
 

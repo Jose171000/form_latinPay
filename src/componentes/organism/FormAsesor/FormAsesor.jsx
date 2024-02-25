@@ -56,7 +56,7 @@ const FormAsesor = (props) => {
       <div className={toggle ? style.cortain : style.noCortain}>
         <section>
           <div className={style.imageCortain}>
-            <img src="../../../../public/Latinpay-logo.png" alt="latinPay" />
+            <img src="https://latinpay.pe/wp-content/uploads/2023/01/Latinpay-logo.png" alt="latinPay" />
           </div>
           <h1>Gracias, {data.name}</h1>
           <span>
@@ -70,7 +70,7 @@ const FormAsesor = (props) => {
       </div>
       <div className={style.left_container}>
         <div className={style.image}>
-          <img src="../../../../public/Latinpay-logo.png" alt="latinPay" />
+          <img src="https://latinpay.pe/wp-content/uploads/2023/01/Latinpay-logo.png" alt="latinPay" />
         </div>
         <div className={style.texto}>
           <p>

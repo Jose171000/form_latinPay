@@ -59,7 +59,7 @@ const Form = (props) => {
       <div className={toggle ? style.cortain : style.noCortain}>
         <section>
           <div className={style.imageCortain}>
-            <img src="https://res.cloudinary.com/dce6wpls5/image/upload/v1708901421/0c2fdead-129b-4861-9214-7763de312f4a_kfye9q.png" alt="latinPay" />
+            <img src="https://res.cloudinary.com/dce6wpls5/image/upload/v1708902271/c804e300-8455-4b7d-b3e0-972e50aeaaeb_gdk8cn.png" alt="latinPay" />
           </div>
           <h1>Bienvenido, {data.name}</h1>
           <span>
@@ -72,7 +72,7 @@ const Form = (props) => {
       </div>
       <div className={style.left_container}>
         <div className={style.image}>
-          <img src="https://res.cloudinary.com/dce6wpls5/image/upload/v1708901421/0c2fdead-129b-4861-9214-7763de312f4a_kfye9q.png" alt="latinPay" />
+          <img src="https://res.cloudinary.com/dce6wpls5/image/upload/v1708902271/c804e300-8455-4b7d-b3e0-972e50aeaaeb_gdk8cn.png" alt="latinPay" />
         </div>
         <div>
           <p>
